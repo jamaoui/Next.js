@@ -5,14 +5,8 @@ function MenuBar() {
     return (
         <NavigationMenu>
             <NavigationMenuList>
-                <CustomLink href="/login">
-                    Login
-                </CustomLink>
-                <CustomLink href="/logout">
-                    Logout
-                </CustomLink>
-                <CustomLink href="/register">
-                    Register
+                <CustomLink href="/products">
+                    Products
                 </CustomLink>
             </NavigationMenuList>
         </NavigationMenu>
