@@ -5,8 +5,11 @@ function MenuBar() {
     return (
         <NavigationMenu>
             <NavigationMenuList>
-                <CustomLink href="/products">
-                    Products
+                <CustomLink href="/settings">
+                    Settings
+                </CustomLink>
+                <CustomLink href="/profile">
+                    Profile
                 </CustomLink>
             </NavigationMenuList>
         </NavigationMenu>
