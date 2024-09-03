@@ -5,8 +5,8 @@ function MenuBar() {
     return (
         <NavigationMenu>
             <NavigationMenuList>
-                <CustomLink href="/settings">
-                    Settings
+                <CustomLink href="/photos">
+                    Photos
                 </CustomLink>
                 <CustomLink href="/profile">
                     Profile
