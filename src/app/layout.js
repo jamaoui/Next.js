@@ -1,6 +1,6 @@
 import {Actor} from "next/font/google";
 import "./globals.css";
-import MenuBar from "@/components/MenuBar";
+import {cn} from "@/lib/utils";
 
 const font = Actor({subsets: ["latin"], weight: '400'});
 
@@ -15,14 +15,10 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="en">
-        <body className={font.className}>
-        <MenuBar/>
-        <section className={'my-4'}>
+        <body className={cn('dark', font.className)}>
+        <section className={'my-4 '}>
             {children}
         </section>
-        <footer className={'bg-slate-900 text-white text-center'}>
-            &copy; {new Date().getFullYear()}
-        </footer>
         </body>
         </html>
     );
